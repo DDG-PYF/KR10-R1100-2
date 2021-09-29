@@ -19,7 +19,8 @@
 ![image](https://github.com/DDG-PYF/KR10-R1100-2/blob/main/img_file/1632827364(1).jpg) 
 计算可得：
 ![image](https://github.com/DDG-PYF/KR10-R1100-2/blob/main/img_file/1632827376(1).png) 
-  用matlab编辑transform函数。
+
+用matlab编辑transform函数。
 
 三、计算KR10 R1100-2运动学方程
 见KR10R1100_2.m
@@ -27,8 +28,11 @@
 四、计算雅可比矩阵
 根据雅可比矩阵的定义，从机械臂的速度角度出发，利用公式：
 ![image](https://github.com/DDG-PYF/KR10-R1100-2/blob/main/img_file/1632908350(1).jpg)  
-计算多组关节点角速度值对应的末端笛卡尔矢量从而求解 。
+
+计算多组关节点角速度值对应的末端笛卡尔矢量从而求解。
+
 对于计算末端笛卡尔矢量，采用如下公式进行：
 ![image](https://github.com/DDG-PYF/KR10-R1100-2/blob/main/img_file/1632908368(1).jpg)  
-![image](https://github.com/DDG-PYF/KR10-R1100-2/blob/main/img_file/1632908392(1).jpg) 
+![image](https://github.com/DDG-PYF/KR10-R1100-2/blob/main/img_file/1632908392(1).jpg)
+
 这里求得的角速度和线速度都是连杆i+1对于坐标系i+1而言的。Matlab实现见jacobian.m文件。
