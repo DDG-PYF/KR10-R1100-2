@@ -32,6 +32,7 @@
 计算多组关节点角速度值对应的末端笛卡尔矢量从而求解。
 
 对于计算末端笛卡尔矢量，采用如下公式进行：
+
 ![image](https://github.com/DDG-PYF/KR10-R1100-2/blob/main/img_file/1632908368(1).jpg)  
 ![image](https://github.com/DDG-PYF/KR10-R1100-2/blob/main/img_file/1632908392(1).jpg)
 
